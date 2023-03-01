@@ -26,7 +26,7 @@ architectures:
   - build-on: amd64
     build-for: arm64
   - build-on: amd64
-    build-for: amrhf
+    build-for: armhf
   - build-on: amd64
     build-for: ppc64el
   - build-on: amd64
