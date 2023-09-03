@@ -67,5 +67,5 @@ parts:
       dephell deps convert --from-path pyproject.toml --from-format poetry --to-path setup.py --to-format setuppy
       craftctl default
       craftctl set version=$(git describe --tags)
-      rm -rf $CRAFT_PART_INSTALL/lib/python3.10/site-packages/{pip,setuptools,wheel,pkg_resources,*.dist-info}
+      rm -rf $CRAFT_PART_INSTALL/lib/python3.10/site-packages/{pip,setuptools,wheel}
       
