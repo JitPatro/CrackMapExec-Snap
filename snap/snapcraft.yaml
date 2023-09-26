@@ -48,7 +48,7 @@ apps:
 parts:
   crackmapexec:
     plugin: python
-    source: https://github.com/mpgn/CrackMapExec.git
+    source: https://github.com/byt3bl33d3r/CrackMapExec.git
 
     build-packages:
       - build-essential
