@@ -52,6 +52,7 @@ parts:
 
     build-packages:
       - build-essential
+      - pkg-config
       - python3-pip
       - libffi-dev
       - libkrb5-dev
